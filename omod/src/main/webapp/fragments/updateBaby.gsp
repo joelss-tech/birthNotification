@@ -2,7 +2,8 @@
 <form id="babyForm" method="post">
 <fieldset id="editNurse" >
 <legend>
-<p> Edit Baby </P>
+<p> Edit Baby .</P>
+
 </legend>
 
 <input id='baby_id' hidden='true' name='babyId' value='${baby.id}'/>
@@ -16,6 +17,7 @@
 <p>
      Facility <input id='facility' name='facility' value='${baby.facility}'/>
 </p>
+
 <p>
      WeightAtBirth <input id='weightAtBirth' name='weightAtBirth' value='${baby.weightAtBirth}'/>
 </p>

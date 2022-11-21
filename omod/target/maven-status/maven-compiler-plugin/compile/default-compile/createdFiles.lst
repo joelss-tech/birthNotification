@@ -1,3 +1,4 @@
+org/openmrs/module/birthnotification2/page/controller/PrintDetailsPageController.class
 org/openmrs/module/birthnotification2/fragment/controller/UpdateMotherFragmentController.class
 org/openmrs/module/birthnotification2/fragment/controller/ViewparentsFragmentController.class
 org/openmrs/module/birthnotification2/page/controller/DeleteBabyPageController.class

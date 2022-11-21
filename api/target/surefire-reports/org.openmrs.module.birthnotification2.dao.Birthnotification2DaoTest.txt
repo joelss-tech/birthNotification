@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.openmrs.module.birthnotification2.dao.Birthnotification2DaoTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 1.369 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 1.119 sec
