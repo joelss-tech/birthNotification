@@ -1,0 +1,8 @@
+/home/joee/Desktop/birthnotification2/api/src/main/java/org/openmrs/module/birthnotification2/api/dao/Birthnotification2Dao.java
+/home/joee/Desktop/birthnotification2/api/src/main/java/org/openmrs/module/birthnotification2/Birthnotification2Config.java
+/home/joee/Desktop/birthnotification2/api/src/main/java/org/openmrs/module/birthnotification2/model/Mother.java
+/home/joee/Desktop/birthnotification2/api/src/main/java/org/openmrs/module/birthnotification2/api/impl/Birthnotification2ServiceImpl.java
+/home/joee/Desktop/birthnotification2/api/src/main/java/org/openmrs/module/birthnotification2/model/Father.java
+/home/joee/Desktop/birthnotification2/api/src/main/java/org/openmrs/module/birthnotification2/model/Baby.java
+/home/joee/Desktop/birthnotification2/api/src/main/java/org/openmrs/module/birthnotification2/Birthnotification2Activator.java
+/home/joee/Desktop/birthnotification2/api/src/main/java/org/openmrs/module/birthnotification2/api/Birthnotification2Service.java

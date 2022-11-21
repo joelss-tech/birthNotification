@@ -1,0 +1,8 @@
+org/openmrs/module/birthnotification2/model/Mother.class
+org/openmrs/module/birthnotification2/model/Baby.class
+org/openmrs/module/birthnotification2/api/impl/Birthnotification2ServiceImpl.class
+org/openmrs/module/birthnotification2/model/Father.class
+org/openmrs/module/birthnotification2/api/Birthnotification2Service.class
+org/openmrs/module/birthnotification2/Birthnotification2Config.class
+org/openmrs/module/birthnotification2/Birthnotification2Activator.class
+org/openmrs/module/birthnotification2/api/dao/Birthnotification2Dao.class

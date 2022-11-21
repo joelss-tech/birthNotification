@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+                  http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+ 
+    <!--
+    	See http://wiki.openmrs.org/display/docs/Module+liquibase+File for 
+    	documentation on this file.
+    
+        See http://www.liquibase.org/manual/home#available_database_refactorings
+        for a list of supported elements and attributes
+    -->
+ 
+ 	<!-- Uncomment the changeset below if you want to make the Item class persistable, see also Item and Birthnotification2DaoTest -->
+ 	
+	<changeSet id="y1" author="SekirandaJoel">
+		<preConditions onFail="MARK_RAN">
+			<not><tableExists tableName="y_baby"/></not>
+		</preConditions>
+		<comment>
+			Creating the y_baby table
+		</comment>
+		<createTable tableName="y_baby">
+			<column name="id" type="int" autoIncrement="true">
+				<constraints primaryKey="true" nullable="false"/>
+			</column>
+			<column defaultValueBoolean ="false" name="voided" type="boolean">
+				<constraints nullable="false"></constraints>
+			</column>
+			<column name="weightAtBirth" type="int" />
+			<column name="givenName" type="varchar(255)" />
+			<column name="facility" type="varchar(255)" />
+			<column name="village" type="varchar(255)" />
+			<column name="district" type="varchar(255)" />
+			<column name="dateOfBirth" type="DATETIME" />
+			<column name="gender" type="varchar(255)" />
+		</createTable>
+    </changeSet> 
+
+	<changeSet id="z2" author="SekirandaJoel">
+		<preConditions onFail="MARK_RAN">
+			<not><tableExists tableName="y_mother"/></not>
+		</preConditions>
+		<comment>
+			Creating the x_Mother table
+		</comment>
+		<createTable tableName="y_mother">
+			<column name="id" type="int" autoIncrement="true">
+				<constraints primaryKey="true" nullable="false"/>
+			</column>
+			<column defaultValueBoolean ="false" name="voided" type="boolean">
+				<constraints nullable="false"></constraints>
+			</column>
+			<column name="parity" type="int" />
+			<column name="age" type="int" />
+			<column name="nationalId" type="varchar(255)" />
+			<column name="givenName" type="varchar(255)" />
+			<column name="surname" type="varchar(255)" />
+			<column name="village" type="varchar(255)" />
+			<column name="subcounty" type="varchar(255)" />
+			<column name="district" type="varchar(255)" />	
+		</createTable>
+    </changeSet> 
+
+	<changeSet id="z3" author="SekirandaJoel">
+		<preConditions onFail="MARK_RAN">
+			<not><tableExists tableName="y_father"/></not>
+		</preConditions>
+		<comment>
+			Creating the y_father table
+		</comment>
+		<createTable tableName="y_father">
+			<column name="id" type="int" autoIncrement="true">
+				<constraints primaryKey="true" nullable="false"/>
+			</column>
+			<column defaultValueBoolean ="false" name="voided" type="boolean">
+				<constraints nullable="false"></constraints>
+			</column>
+			<column name="age" type="int" />
+			<column name="nationalId" type="varchar(255)" />
+			<column name="givenName" type="varchar(255)" />
+			<column name="surname" type="varchar(255)" />
+			<column name="village" type="varchar(255)" />
+			<column name="subcounty" type="varchar(255)" />
+			<column name="district" type="varchar(255)" />
+		</createTable>
+    </changeSet> 
+ 
+</databaseChangeLog>
